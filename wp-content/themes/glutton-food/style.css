@@ -1,0 +1,151 @@
+/*
+    Theme Name: Glutton-food;
+
+ */
+
+.menu-category-title .bg-image {
+    object-fit: cover ;
+}
+
+.menu-item.menu-grid-item .menu-item__img {
+    object-fit: cover !important;
+    max-width: 284px;
+    max-height: 190px;
+    height: 100%;
+}
+
+
+.menu-sample .image{
+    width: 570px;
+    height: 410px;
+    object-fit: cover;
+}
+
+.card .card-image img{
+    max-height: 240px !important;
+    height: 100%;
+}
+
+
+/*///woocommerce*/
+/*// CHECKOUT PAGE - CSS
+// Note: You can place this css whereever you find it fit*/
+   .woocommerce form .form-row {
+       width: 100% !important;
+   }
+
+.woocommerce-checkout #payment div.payment_box input.input-text,
+.woocommerce-checkout #payment div.payment_box textarea {
+    width: 100% !important;
+    padding: 8px;
+}
+
+.woocommerce #payment .form-row select,
+.woocommerce-page #payment .form-row select {
+    width: 100%;
+    height: 30px;
+}
+
+.woocommerce .col2-set .col-1,
+.woocommerce-page .col2-set .col-1,
+.woocommerce .col2-set .col-2,
+.woocommerce-page .col2-set .col-2 {
+    float: left;
+    width: 100%;
+}
+
+.custom-checkout h3 {
+    background-color: #165f1c;
+    /****CHANGE TO COLOR YOU WANT TO USE FOR TITLE BACKGROUND ****/
+    width: 45%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+    color: #FFF;
+    float: right;
+}
+
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea {
+    padding: .6180469716em;
+    background-color: #f2f2f2;
+    color: #43454b;
+    outline: 0;
+    border: 0;
+    -webkit-appearance: none;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-weight: 400;
+    border: solid 2px #e4e4e4;
+}
+.woocommerce form .form-row{
+    display: flex;
+    flex-direction: column;
+}
+
+#wc_checkout_add_ons {
+    width: 45%;
+    float: right;
+    text-align: center;
+}
+
+.footer-first-row{
+    display: block !important;
+}
+.woocommerce-billing-fields{
+    padding-top: 100px;
+}
+.order_review_heading {
+    padding-top: 40px;
+}
+
+#order_review_heading {
+    padding-top: 50px;
+}
+
+@media (max-width: 1500px) {
+    #header .module-logo {
+        padding: 1rem 2rem !important;
+    }
+}
+@media screen and (min-width: 980px) {
+    .woocommerce-checkout-review-order {
+        width: 45%;
+        float: right;
+        position: fixed;
+        right: 20px;
+        top: 30%;
+    }
+}
+
+@media screen and (min-width: 980px) {
+
+    .woocommerce-shipping-fields h3,
+    .woocommerce-billing-fields h3 {
+        width: 100%;
+    }
+
+    .woocommerce .col2-set,
+    .woocommerce-page .col2-set {
+        width: 45%;
+        float: left;
+    }
+
+    .woocommerce-checkout-review-order {
+        width: 45%;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 979px) {
+    .custom-checkout h3 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px){
+    #header-mobile .module-logo img {
+       display: none;
+    }
+}
