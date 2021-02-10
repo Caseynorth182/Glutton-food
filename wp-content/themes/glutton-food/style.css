@@ -103,6 +103,14 @@
 #order_review_heading {
     padding-top: 50px;
 }
+.container-check{
+
+    display: flex;
+    flex-direction: column;
+}
+#header .module-logo {
+    padding: 1rem 2rem !important;
+}
 
 @media (max-width: 1500px) {
     #header .module-logo {

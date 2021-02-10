@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="260c048d-a659-4c90-bf26-dcfe0f01a5c4" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/order/form-tracking.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/order/order-again.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/order/order-details-customer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/order/order-details-item.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/order/order-details.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/order/order-downloads.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/order/tracking.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/inc/woo.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/inc/woo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1o3sC8yLMi0EiaFpc6wAu8vu4Nl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\openServer\OpenServer\domains\restoran\wp-content\themes\glutton-food\woocommerce" />
+      <recent name="C:\Program Files (x86)\openServer\OpenServer\domains\restoran\wp-content\themes\glutton-food\assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\openServer\OpenServer\domains\restoran\wp-content\themes\glutton-food\woocommerce" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="260c048d-a659-4c90-bf26-dcfe0f01a5c4" name="Default Changelist" comment="" />
+      <created>1612526482988</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612526482988</updated>
+      <workItem from="1612526484126" duration="14814000" />
+      <workItem from="1612545910920" duration="2173000" />
+      <workItem from="1612557949409" duration="3759000" />
+      <workItem from="1612565499580" duration="3465000" />
+      <workItem from="1612609780027" duration="9127000" />
+      <workItem from="1612633609888" duration="593000" />
+      <workItem from="1612695835832" duration="6244000" />
+      <workItem from="1612706572606" duration="15004000" />
+      <workItem from="1612784296700" duration="15037000" />
+      <workItem from="1612869075142" duration="15947000" />
+      <workItem from="1612956311900" duration="2289000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="828" y="412" key="#ESLint" timestamp="1612532994086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="412" key="#ESLint/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612532994086" />
+    <state x="562" y="98" key="CommitChangelistDialog2" timestamp="1612880214045">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="562" y="98" key="CommitChangelistDialog2/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612880214045" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1612883479760">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612883479760" />
+    <state x="337" y="418" width="744" height="204" key="Github.ShareDialog" timestamp="1612882099811">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="337" y="418" width="744" height="204" key="Github.ShareDialog/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612882099811" />
+    <state x="714" y="225" key="Github.UntrackedFilesDialog" timestamp="1612882112113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612882112113" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1612870677644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612870677644" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1612879849696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612879849696" />
+    <state x="567" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1612568911962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="567" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612568911962" />
+    <state x="663" y="117" width="584" height="801" key="find.popup" timestamp="1612959328365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="663" y="117" width="584" height="801" key="find.popup/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612959328365" />
+    <state x="803" y="292" key="refactoring.ChangeSignatureDialog" timestamp="1612543934621">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="803" y="292" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612543934621" />
+  </component>
+</project>
