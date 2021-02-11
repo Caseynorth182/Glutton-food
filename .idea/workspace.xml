@@ -10,17 +10,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="260c048d-a659-4c90-bf26-dcfe0f01a5c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/inc/woo.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/inc/woo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/archive-product.old.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/checkout/thankyou.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/checkout/thankyou.php" afterDir="false" />
-    </list>
+    <list default="true" id="260c048d-a659-4c90-bf26-dcfe0f01a5c4" name="Default Changelist" comment="first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +86,7 @@
       <workItem from="1612784296700" duration="15037000" />
       <workItem from="1612869075142" duration="15947000" />
       <workItem from="1612956311900" duration="10203000" />
-      <workItem from="1613042347413" duration="1936000" />
+      <workItem from="1613042347413" duration="2328000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1612959658662</created>
@@ -119,7 +109,18 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="false" />
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>
@@ -142,10 +143,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="163" key="#PHP/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612976207065" />
-    <state x="562" y="98" key="CommitChangelistDialog2" timestamp="1612959657593">
+    <state x="562" y="98" key="CommitChangelistDialog2" timestamp="1613044674048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="562" y="98" key="CommitChangelistDialog2/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612959657593" />
+    <state x="562" y="98" key="CommitChangelistDialog2/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1613044674048" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1612976203166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
