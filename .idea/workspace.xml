@@ -10,18 +10,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="260c048d-a659-4c90-bf26-dcfe0f01a5c4" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/order/form-tracking.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/order/order-again.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/order/order-details-customer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/order/order-details-item.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/order/order-details.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/order/order-downloads.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/order/tracking.php" afterDir="false" />
+    <list default="true" id="260c048d-a659-4c90-bf26-dcfe0f01a5c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/inc/woo.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/inc/woo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/archive-product.old.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/checkout/thankyou.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/checkout/thankyou.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +29,21 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="DrupalConfiguration">
+    <drupalPath />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JoomlaConfiguration">
+    <joomlaConfigPath />
+    <joomlaPath />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/../wp-course" />
+      <path value="$PROJECT_DIR$" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1o3sC8yLMi0EiaFpc6wAu8vu4Nl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -42,9 +53,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,16 +65,16 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.php.frameworks" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\openServer\OpenServer\domains\restoran\wp-content\themes\glutton-food\woocommerce" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Program Files (x86)\openServer\OpenServer\domains\restoran\wp-content\themes\glutton-food\woocommerce" />
       <recent name="C:\Program Files (x86)\openServer\OpenServer\domains\restoran\wp-content\themes\glutton-food\assets" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Program Files (x86)\openServer\OpenServer\domains\restoran\wp-content\themes\glutton-food\woocommerce" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -82,8 +95,17 @@
       <workItem from="1612706572606" duration="15004000" />
       <workItem from="1612784296700" duration="15037000" />
       <workItem from="1612869075142" duration="15947000" />
-      <workItem from="1612956311900" duration="2289000" />
+      <workItem from="1612956311900" duration="10203000" />
+      <workItem from="1613042347413" duration="1936000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1612959658662</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612959658662</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,19 +129,27 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="828" y="412" key="#ESLint" timestamp="1612532994086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="412" key="#ESLint/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612532994086" />
-    <state x="562" y="98" key="CommitChangelistDialog2" timestamp="1612880214045">
+    <state x="667" y="163" key="#PHP" timestamp="1612976207065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="562" y="98" key="CommitChangelistDialog2/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612880214045" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1612883479760">
+    <state x="667" y="163" key="#PHP/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612976207065" />
+    <state x="562" y="98" key="CommitChangelistDialog2" timestamp="1612959657593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612883479760" />
+    <state x="562" y="98" key="CommitChangelistDialog2/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612959657593" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1612976203166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612976203166" />
     <state x="337" y="418" width="744" height="204" key="Github.ShareDialog" timestamp="1612882099811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -132,21 +162,24 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612870677644" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1612879849696">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1612976179451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612879849696" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612976179451" />
     <state x="567" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1612568911962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="567" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612568911962" />
-    <state x="663" y="117" width="584" height="801" key="find.popup" timestamp="1612959328365">
+    <state x="663" y="117" width="584" height="801" key="find.popup" timestamp="1612975793783">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="663" y="117" width="584" height="801" key="find.popup/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612959328365" />
+    <state x="663" y="117" width="584" height="801" key="find.popup/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612975793783" />
     <state x="803" y="292" key="refactoring.ChangeSignatureDialog" timestamp="1612543934621">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="803" y="292" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612543934621" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>C:\Program Files (x86)\openServer\OpenServer\domains\restoran</wordpressPath>
   </component>
 </project>

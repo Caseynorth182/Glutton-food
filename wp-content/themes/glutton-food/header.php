@@ -21,12 +21,12 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+               <!-- <div class="col-md-3">
                     <!-- Logo -->
                     <div class="module module-logo dark">
-	                    <?php the_custom_logo();?>
+	                    <?php /*the_custom_logo();*/?>
                     </div>
-                </div>
+                </div>-->
                 <div class="col-md-7">
                     <!-- Navigation -->
 

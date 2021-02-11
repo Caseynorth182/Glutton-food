@@ -37,34 +37,47 @@ add_filter('woocommerce_billing_fields', 'chechout_field_custom');
     return $address_fields;
 };
 
- add_action('woocommerce_before_template_part', 'checkout_start');
+ add_action('woocommerce_before_thankyou', 'checkout_start');
  function checkout_start() {
+     //получаем ID данного заказа
+     $order_key= $_GET['key'] ? wc_get_order_id_by_order_key($_GET['key']) : false;
+     //получаем обертку для обьекта заказа по ID
+     $order = wc_get_order($order_key);
+     //получили массив с полными данными о заказе
+     $data = $order->get_data();
+
+     $name = $data['billing']['first_name'];
+     $sername = $data['billing']['last_name'];
+ 	$full_name = $name . " ". $sername;
+    /* echo '<pre>';
+     echo print_r($full_name);
+     echo '<pre>';*/
      ?>
-        <div class="container-check" >
+      <h1>Cпасибо за ваш заказ ,<?php echo $full_name;?></h1>
     <?php
  }
- add_action('woocommerce_after_template_part', 'checkout_end');
-function checkout_end() {
-    ?>
-    </div>
-    <?php
-}
 
-//thankyou
-do_action( 'woocommerce_before_template_part', 'thankyou_content_start' );
-function thankyou_content_start(){
-	?>
-	<div class="row content-tanya">
-	<div class="container">
-  <div class="row">
-<?php
-}
-do_action( 'woocommerce_after_template_part', 'thankyou_content_end' );
-function thankyou_content_end(){
-    ?>
-	</div>
-	</div>
-	</div>
-    <?php
-}
 
+
+//THANKYOU
+add_filter (  'woocommerce_thankyou_order_received_text' , 'title_change'  ) ;
+function title_change($title) {
+	return ' Спасибо за Ваш заказик, дорогой &#x1F44D';
+}
+//стандарто через эот хук передается ID заказа, так что передаем параметр что бы его изменить
+add_action('woocommerce_thankyou','woocust_redirect_thx',5,1);
+function woocust_redirect_thx($key){
+	//из ID заказа нужно получить объект
+	$order = wc_get_order($key);
+
+    //ДЕЛАЕМ РЕДИРЕКТ если не получилось
+	$url = home_url();
+	if ( $order->has_status( 'failed' ) ) {
+		wp_redirect( $url );
+		die();
+	}
+	/*echo '<pre>';
+     echo print_r($order);
+     echo '<pre>';*/
+
+}
