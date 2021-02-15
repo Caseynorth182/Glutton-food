@@ -22,26 +22,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="260c048d-a659-4c90-bf26-dcfe0f01a5c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/cart/cart-empty.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/cart/cart-item-data.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/cart/cart-shipping.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/cart/cart-totals.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/cart/cart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/cart/cross-sells.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/cart/mini-cart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/cart/proceed-to-checkout-button.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/cart/shipping-calculator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/content-single-product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/single-product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/tmp/not-visible-footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/6xk3dsbykcsv-lcoeqqfx1ryoo3apa.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/6xkwdsbykcsv-lcoeqqfx1ryoo3qpzy4lbdo.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/6xkydsbykcsv-lcoeqqfx1ryoo3i54rakw.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/6xkydsbykcsv-lcoeqqfx1ryoo3ig4vakw.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/credit-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/delivery_dining.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/main_bg-100x100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/main_bg-1024x652.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/main_bg-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/main_bg-1536x978.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/main_bg-2048x1305.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/main_bg-300x191.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/main_bg-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/main_bg-600x382.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/main_bg-768x489.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/main_bg-scaled.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/main_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/main_bg2-100x100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/main_bg2-1024x378.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/main_bg2-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/main_bg2-1536x566.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/main_bg2-300x111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/main_bg2-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/main_bg2-600x221.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/main_bg2-768x283.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/main_bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2021/02/shopping-basket.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/archive-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/page-menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/favicon_120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/favicon_152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/favicon_60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/favicon_76x76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/location-pin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/logo-dark-green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/logo-dark-red.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/logo-dark-teal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/logo-dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/logo-horizontal-dark-green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/logo-horizontal-dark-red.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/logo-horizontal-dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/logo-horizontal-light-red.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/logo-horizontal-light-teal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/logo-horizontal-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/logo-light-green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/logo-light-red.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/logo-light-teal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/logo-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/screens/home-basic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/screens/home-burgers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/screens/home-dark.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/screens/home-fresh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/screens/home-more.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/screens/home-slider.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/img/screens/home-video.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/js/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/assets/js/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/inc/woo.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/inc/woo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/page-main.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/page-main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/page-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/page-menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/archive-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/archive-product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/checkout/form-checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glutton-food/woocommerce/checkout/form-checkout.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,12 +119,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1o3sC8yLMi0EiaFpc6wAu8vu4Nl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -130,7 +177,7 @@
       <workItem from="1613128285039" duration="3811000" />
       <workItem from="1613217581180" duration="2869000" />
       <workItem from="1613300649849" duration="4675000" />
-      <workItem from="1613386949546" duration="5779000" />
+      <workItem from="1613386949546" duration="17742000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1612959658662</created>
@@ -171,6 +218,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="edit checkout and thankyou pages" />
     <option name="LAST_COMMIT_MESSAGE" value="edit checkout and thankyou pages" />
@@ -200,10 +248,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612882112113" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1613062190157">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1613398319266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1613062190157" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1613398319266" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1612976179451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -216,10 +264,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="567" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1612568911962" />
-    <state x="663" y="117" width="875" height="801" key="find.popup" timestamp="1613393603989">
+    <state x="663" y="117" width="875" height="801" key="find.popup" timestamp="1613402606183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="663" y="117" width="875" height="801" key="find.popup/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1613393603989" />
+    <state x="663" y="117" width="875" height="801" key="find.popup/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1613402606183" />
     <state x="803" y="292" key="refactoring.ChangeSignatureDialog" timestamp="1612543934621">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

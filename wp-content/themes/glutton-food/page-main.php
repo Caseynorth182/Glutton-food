@@ -20,8 +20,8 @@ $shop_page_url = get_permalink(6);
         <div class="section-main-content padded container">
             <div class="row">
                 <div class="col-md-5">
-                    <h1 class="display-1">Best food in the city!</h1>
-                    <h4 class="text-muted mb-5">Taste it now with our online order!</h4>
+                    <h1 class="display-1"><?php the_field('main_title',128);?></h1>
+                    <h4 class="text-muted mb-5"><?php the_field('main_subtitle',128);?></h4>
                     <a href="<?php echo $shop_page_url;?>" class="btn btn-outline-primary btn-lg animated" data-animation="fadeInUp" data-animation-delay="400"><span>
 		                   В Меню
 	                    </span></a>
@@ -31,7 +31,7 @@ $shop_page_url = get_permalink(6);
 
         <!-- Image -->
         <div class="section-main-image">
-            <div class="bg-image bg-parallax"><img src="http://assets.suelo.pl/soup/img/photos/hero-dark.jpg" alt=""></div>
+            <div class="bg-image bg-parallax"><img src="<?php the_field('main_bg',128);?>" alt=""></div>
         </div>
 
     </section>
@@ -40,7 +40,7 @@ $shop_page_url = get_permalink(6);
     <section class="section right">
 
         <div class="container">
-            <h1 class="mb-6">Featured Products</h1>
+            <h1 class="mb-6">Популярные блюда</h1>
             <div class="row">
                 <?php
                 $query = new WP_Query([
@@ -85,7 +85,7 @@ $shop_page_url = get_permalink(6);
 		                                </span>
 	                                </span>
                                         </div>
-                                        <div class="col-sm-6 text-sm-right mt-2 mt-sm-0"><button class="btn btn-outline-primary btn-sm" data-action="open-cart-modal" data-id="1"><span>Add to cart</span></button></div>
+	                                    <button href="?add-to-cart=<?php echo $id; ?>" rel="nofollow" data-product-id="<?php echo $id ?>" class="btn btn-primary add_to_cart_button ajax_add_to_cart product_type_simple adding_to_cart" data-product_id="<?php echo $id;?>">В корзину</button>
                                     </div>
                                 </div>
                             </div>
@@ -97,7 +97,8 @@ $shop_page_url = get_permalink(6);
                 ?>
             </div>
             <div class="text-center mt-5">
-                <a href="menu-grid-collapse.html" class="btn btn-primary"><span>View Our Menu</span></a>
+
+                <a href="<?php get_page_link(130)?>" class="btn btn-primary"><span>посмтреть наше меню</span></a>
             </div>
         </div>
 
@@ -168,33 +169,12 @@ $shop_page_url = get_permalink(6);
 
         <div class="container">
             <div class="col-lg-5 col-md-9">
-                <div class="rate mb-5 rate-lg"><i class="fa fa-star active"></i><i class="fa fa-star active"></i><i class="fa fa-star active"></i><i class="fa fa-star active"></i><i class="fa fa-star"></i></div>
-                <h1>The best food in London!</h1>
-                <p class="lead text-muted mb-5">Donec a eros metus. Vivamus volutpat leo dictum risus ullamcorper condimentum. Cras sollicitudin varius condimentum. Praesent a dolor sem....</p>
-                <div class="blockquotes">
-                    <!-- Blockquote -->
-                    <blockquote class="blockquote light animated" data-animation="fadeInLeft">
-                        <div class="blockquote-content">
-                            <div class="rate rate-sm mb-3"><i class="fa fa-star active"></i><i class="fa fa-star active"></i><i class="fa fa-star active"></i><i class="fa fa-star active"></i><i class="fa fa-star"></i></div>
-                            <p>It’ was amazing feeling for my belly!</p>
-                        </div>
-                        <footer>
-                            <img src="http://assets.suelo.pl/soup/img/avatars/avatar02.jpg" alt="">
-                            <span class="name">Mark Johnson<span class="text-muted">, Google</span></span>
-                        </footer>
-                    </blockquote>
-                    <!-- Blockquote -->
-                    <blockquote class="blockquote animated" data-animation="fadeInRight" data-animation-delay="300">
-                        <div class="blockquote-content dark">
-                            <div class="rate rate-sm mb-3"><i class="fa fa-star active"></i><i class="fa fa-star active"></i><i class="fa fa-star active"></i><i class="fa fa-star active"></i><i class="fa fa-star"></i></div>
-                            <p>Great food and great atmosphere!</p>
-                        </div>
-                        <footer>
-                            <img src="http://assets.suelo.pl/soup/img/avatars/avatar01.jpg" alt="">
-                            <span class="name">Kate Hudson<span class="text-muted">, LinkedIn</span></span>
-                        </footer>
-                    </blockquote>
-                </div>
+
+                <h1><?php the_field('second_title',128);?></h1>
+                <p class="lead text-muted mb-5">
+	                <?php the_field('second_subtitle',128);?>
+                </p>
+
             </div>
         </div>
 
@@ -210,8 +190,8 @@ $shop_page_url = get_permalink(6);
                     <div class="feature feature-1 mb-md-0">
                         <div class="feature-icon icon icon-primary"><i class="ti ti-shopping-cart"></i></div>
                         <div class="feature-content">
-                            <h4 class="mb-2"><a href="menu-list-collapse.html">Pick a dish</a></h4>
-                            <p class="text-muted mb-0">Vivamus volutpat leo dictum risus ullamcorper condimentum.</p>
+                            <h4 class="mb-2"><a href="menu-list-collapse.html">Наполни корзину</a></h4>
+                            <p class="text-muted mb-0"><?php the_field('first_step',128);?></p>
                         </div>
                     </div>
                 </div>
@@ -220,8 +200,8 @@ $shop_page_url = get_permalink(6);
                     <div class="feature feature-1 mb-md-0">
                         <div class="feature-icon icon icon-primary"><i class="ti ti-wallet"></i></div>
                         <div class="feature-content">
-                            <h4 class="mb-2">Make a payment</h4>
-                            <p class="text-muted mb-0">Vivamus volutpat leo dictum risus ullamcorper condimentum.</p>
+                            <h4 class="mb-2">Выбери способ оплаты</h4>
+                            <p class="text-muted mb-0"><?php the_field('second_step',128);?></p>
                         </div>
                     </div>
                 </div>
@@ -230,8 +210,8 @@ $shop_page_url = get_permalink(6);
                     <div class="feature feature-1 mb-md-0">
                         <div class="feature-icon icon icon-primary"><i class="ti ti-package"></i></div>
                         <div class="feature-content">
-                            <h4 class="mb-2">Recieve your food!</h4>
-                            <p class="text-muted mb-3">Vivamus volutpat leo dictum risus ullamcorper condimentum.</p>
+                            <h4 class="mb-2">Доставка!</h4>
+                            <p class="text-muted mb-3"><?php the_field('third_step',128);?></p>
                         </div>
                     </div>
                 </div>
@@ -244,7 +224,7 @@ $shop_page_url = get_permalink(6);
     <section class="section section-lg">
 
         <!-- BG Image -->
-        <div class="bg-image bg-parallax animated dark-overlay"><img src="http://assets.suelo.pl/soup/img/photos/bg-food2.jpg" alt=""></div>
+        <div class="bg-image bg-parallax animated dark-overlay"><img src="<?php the_field('second_bg',128);?>" alt=""></div>
 
         <div class="container">
             <div class="row align-items-center">
@@ -252,9 +232,9 @@ $shop_page_url = get_permalink(6);
                     <button class="btn-play" data-toggle="video-modal" data-target="#modalVideo" data-video="https://www.youtube.com/embed/uVju5--RqtY"></button>
                 </div>
                 <div class="col-md-6">
-                    <h1 class="display-2">Check our <strong>promo</strong> video!</h1>
-                    <h4 class="text-muted mb-5">Taste it now with our online order!</h4>
-                    <a href="page-offers.html" class="btn btn-outline-primary btn-lg"><span>Order now</span></a>
+                    <h1 class="display-2"><?php the_field('main_wish',128);?></h1>
+                    <h4 class="text-muted mb-5"><?php the_field('second_wish',128);?></h4>
+                    <a href="page-offers.html" class="btn btn-outline-primary btn-lg"><span>В МЕНЮ</span></a>
                 </div>
             </div>
         </div>

@@ -232,6 +232,26 @@
     text-align: center;
     border: 1px solid #ddae71;
 }
+.xoo-wsc-ft-amt-label{
+    display: none;
+}
+.footer-second-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#back-to-top{
+    left: 0 !important;
+}
+
+.menu-sample .title{
+    font-size: 3.5rem !important;
+    background-color: rgba(0,0,0,0.5);
+}
+.row.align-items-center.mt-4{
+    display: flex;
+    justify-content: center;
+}
 
 
 

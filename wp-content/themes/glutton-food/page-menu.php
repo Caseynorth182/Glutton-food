@@ -13,8 +13,8 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-4">
-                    <h1 class="mb-0">Menu Grid</h1>
-                    <h4 class="text-muted mb-0">Some informations about our restaurant</h4>
+                    <h1 class="mb-0">Наше меню</h1>
+                    <h4 class="text-muted mb-0">Выберайте и соберайте в корзину</h4>
                 </div>
             </div>
         </div>
@@ -72,10 +72,13 @@ get_header();
 
                                                 <!-- Menu Item -->
                                                 <div class="menu-item menu-grid-item">
-                                                    <!--<img class="mb-4" src="http://assets.suelo.pl/soup/img/products/product-burger.jpg" alt="">-->
-                                                    <?php the_post_thumbnail('full',[
-                                                        'class' => 'menu-item__img'
-                                                    ]);?>
+	                                                <a href="<?php echo get_permalink();?>"
+	                                                   class="menu-item-single-link">
+		                                                <?php the_post_thumbnail('full',[
+			                                                'class' => 'menu-item__img'
+		                                                ]);?>
+	                                                </a>
+
                                                     <div class="mb-0"><?php the_title();?></div>
                                                     <span class="text-muted text-sm"><?php the_excerpt();?></span>
                                                     <div class="row align-items-center mt-4">

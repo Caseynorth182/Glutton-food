@@ -81,3 +81,16 @@ function woocust_redirect_thx($key){
      echo '<pre>';*/
 
 }
+
+
+//WOOCOMMERCE hooks
+//single product
+//remove breadcrumb
+remove_action('woocommerce_before_main_content','woocommerce_breadcrumb',20);
+
+
+remove_action('woocommerce_single_product_summary','woocommerce_template_single_price',10);
+add_action('woocommerce_single_product_summary', 'woocommerce_template_single_price_slogan',21);
+function woocommerce_template_single_price_slogan() {
+	echo '<h3 class="price_slogan">Цена &#9749;</h3>';
+}
