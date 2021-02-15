@@ -113,6 +113,7 @@
 }
 .container-check,
 .woocommerce-order{
+    padding-top: 80px;
     max-width: 960px;
     width: 100%;
     padding-right: 15px;
@@ -134,6 +135,108 @@
 .woocommerce button.button.alt:active{
     background-color: #4dd0e1;
 }
+
+.menu-category .menu-category-title.collapse-toggle.collapse-toggle-active{
+    height: 35vh;
+}
+
+.added_to_cart.wc-forward{
+    display: none;
+}
+.btn-primary:before{
+    background-color: transparent !important;
+}
+.btn-primary:hover {
+    color: black !important ;
+}
+
+.empty_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+.empty_wrapper h2{
+    display: block;
+}
+.empty_wrapper .return-to-shop{
+   display: block;
+}
+.woocommerce-product-gallery__image a{
+    display: flex;
+    justify-content: center !important;
+}
+
+.bg-light {
+    background-color: #f3f4f4!important;
+}
+.col-lg-8.offset-lg-2.back-light{
+    background-color: white;
+}
+.product_title.entry-title{
+    padding: 50px 25px 10px 25px;
+    text-align: center;
+}
+.woocommerce-product-details__short-description{
+    text-align: center;
+}
+.price_slogan{
+    text-align: center  ;
+}
+.summary.entry-summary .price {
+    text-align: center;
+    font-size: 25px;
+    color: #ddae71;
+}
+.summary.entry-summary form{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+}
+.single_add_to_cart_button.button.alt{
+    width: 220px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #333;
+    transition-property: all;
+    transition-duration: .25s;
+    transition-timing-function: ease-out;
+    backface-visibility: hidden;
+    position: relative;
+    font-family: Oswald,sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 0 2rem;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0);
+    border-width: 2px;
+    cursor: pointer;
+    height: calc(3.25rem + 2px);
+    border-color: #ddae71;
+    color: inherit;
+}
+.single_add_to_cart_button.button.alt:hover,
+.single_add_to_cart_button.button.alt:action,
+.single_add_to_cart_button.button.alt:focus{
+    border-color: #ddae71;
+    background: #ddae71;
+    color: #fff;
+}
+.input-text.qty.text{
+    padding: 10px 0px;
+    text-align: center;
+    border: 1px solid #ddae71;
+}
+
+
+
+
+
 
 @media (max-width: 1500px) {
     #header .module-logo {

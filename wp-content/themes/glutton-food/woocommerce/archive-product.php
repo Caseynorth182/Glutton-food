@@ -1,5 +1,6 @@
 <?php
 get_header();
+
 ?>
 <!-- Content -->
 <div id="content">
@@ -90,8 +91,8 @@ get_header();
 														global $product;
 														$id = $product->id;
                                                     ?>
-													<a href="/shop/?add-to-cart=59" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="59" data-product_sku="" aria-label="Добавить &quot;нечто&quot; в корзину" rel="nofollow">В корзину</a>
-														<!--<a href="<?php /*echo do_shortcode('[add_to_cart_url id="'.get_the_ID().'"]'); */?>">Доавить</a>-->
+													<a href="?add-to-cart=<?php echo $id; ?>" rel="nofollow" data-product-id="<?php echo $id; ?>" class="btn btn-primary add_to_cart_button ajax_add_to_cart product_type_simple adding_to_cart" data-product_id="<?php echo $id;?>">Добавить в корзину</a>
+
 
 
 

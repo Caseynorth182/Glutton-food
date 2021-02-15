@@ -6,12 +6,17 @@ if(class_exists('WooCommerce')){
 add_action('wp_enqueue_scripts', 'glutton_script');
 add_action( 'after_setup_theme', 'glutton_reg_menus' );
 
+
 function glutton_script() {
     wp_enqueue_style('style', get_stylesheet_uri() );
     wp_enqueue_style('global', get_template_directory_uri(  ) . '/assets/css/core.css' , [], '1.0' , 'all');
     wp_enqueue_style('theme', get_template_directory_uri() . '/assets/css/theme-teal.css', [], '1.0', 'all');
+    wp_enqueue_style('woocoomerce', get_template_directory_uri() . 'woocommerce.css', [], '1.0', 'all');
     //scripts
     wp_enqueue_script('core', get_template_directory_uri(  ) . '/assets/js/core.js', [], '1.1' , true);
+
+	wp_dequeue_script( 'wc-add-to-cart-variation' );
+	wp_dequeue_script( 'wc-cart' );
 }
 
 //подключение меню
@@ -42,6 +47,24 @@ function show_product_thumb($cat){
 }
 
 //WOOCOMMERCE hooks
+//single product
+//remove breadcrumb
+remove_action('woocommerce_before_main_content','woocommerce_breadcrumb',20);
+
+
+remove_action('woocommerce_single_product_summary','woocommerce_template_single_price',10);
+add_action('woocommerce_single_product_summary', 'woocommerce_template_single_price_slogan',21);
+function woocommerce_template_single_price_slogan() {
+	echo '<h3 class="price_slogan">Цена &#9749;</h3>';
+}
+
+add_action('woocommerce_single_product_summary','woocommerce_template_single_price',22);
+
+remove_action('woocommerce_single_product_summary','woocommerce_template_single_meta',40);
+
+
+
+
 
 
 

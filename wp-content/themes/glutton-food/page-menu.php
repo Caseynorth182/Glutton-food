@@ -37,7 +37,7 @@ get_header();
                     foreach($category as $cat):
 
                         ?>
-                        <div id="Burgers" class="menu-category">
+                        <div id="" class="menu-category">
                             <div class="menu-category-title collapse-toggle" role="tab" data-target="#menuBurgersContent" data-toggle="collapse" aria-expanded="true">
 
                                 <img src="<?php do_action('product_thumb', $cat);?>"
@@ -47,7 +47,7 @@ get_header();
                                 <h2 class="title"><?php echo $cat->name;?></h2>
                             </div>
 
-                            <div id="menuBurgersContent" class="menu-category-content collapse show">
+                            <div id="menuBurgersContent" class="menu-category-content collapse collapse-toggle">
                                 <!--menu-category-title collapse-toggle collapsed-->
                                 <div class="p-4">
                                     <div class="row gutters-sm">
@@ -94,9 +94,7 @@ get_header();
                                                             global $product;
                                                             $id = $product->id;
                                                             ?>
-                                                            <a href="/shop/?add-to-cart=59" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="59" data-product_sku="" aria-label="Добавить &quot;нечто&quot; в корзину" rel="nofollow">В корзину</a>
-                                                            <!--<a href="<?php /*echo do_shortcode('[add_to_cart_url id="'.get_the_ID().'"]'); */?>">Доавить</a>-->
-
+                                      <button href="?add-to-cart=<?php echo $id; ?>" rel="nofollow" data-product-id="<?php echo $id ?>" class="btn btn-primary add_to_cart_button ajax_add_to_cart product_type_simple adding_to_cart" data-product_id="<?php echo $id;?>">В корзину</button>
 
 
                                                         </div>
