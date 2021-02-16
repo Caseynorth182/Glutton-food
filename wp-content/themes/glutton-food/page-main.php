@@ -228,9 +228,9 @@ $shop_page_url = get_permalink(6);
 
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6 text-md-center order-md-2 mb-5 mb-md-0">
+                <!--<div class="col-md-6 text-md-center order-md-2 mb-5 mb-md-0">
                     <button class="btn-play" data-toggle="video-modal" data-target="#modalVideo" data-video="https://www.youtube.com/embed/uVju5--RqtY"></button>
-                </div>
+                </div>-->
                 <div class="col-md-6">
                     <h1 class="display-2"><?php the_field('main_wish',128);?></h1>
                     <h4 class="text-muted mb-5"><?php the_field('second_wish',128);?></h4>

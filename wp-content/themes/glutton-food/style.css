@@ -251,6 +251,10 @@
 .row.align-items-center.mt-4{
     display: flex;
     justify-content: center;
+
+}
+.woocommerce-product-gallery__image img {
+    width: 100%;
 }
 
 
